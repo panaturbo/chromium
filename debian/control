@@ -80,6 +80,7 @@ Build-Depends:
  libjs-jquery,
  libjs-jquery-flot,
  libgcrypt20-dev,
+ pixz,
  fonts-ipafont-gothic,
  fonts-ipafont-mincho,
 
