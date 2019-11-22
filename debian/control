@@ -196,3 +196,14 @@ Description: web browser - setuid security sandbox for chromium
  browsing experience.
  .
  This package contains the setuid chromium sandbox.
+
+Package: chromium-browser
+Architecture: i386 amd64 arm64 armhf
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ chromium (= ${binary:Version}),
+Description: Transitional package - chromium-browser -> chromium debian package
+ This is a transitional dummy package. It can safely be removed.
+ .
+ chromium-browser is now replaced by the chromium debian package.
